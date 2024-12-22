@@ -1,6 +1,11 @@
 fastapi
 uvicorn[standard]
 boto3
+botocore
+datetime
 pymongo
 python-dotenv
+bson
 pydantic
+pydantic_settings
+io

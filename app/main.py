@@ -13,7 +13,9 @@ app = FastAPI()
 
 # Add CORS middleware
 origins = [
-    "http://localhost:3000",  # Frontend URL
+    "http://localhost:3000", 
+    "https://imagemask.netlify.app"
+     # Frontend URL
     # You can add more origins if needed
 ]
 
